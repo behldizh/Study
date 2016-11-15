@@ -3,7 +3,7 @@ n = int(input('N: '))
 k = int(input('k: '))
 
 for i in range(0, n):
-    array.append(int(input('Элемент: ')))
+    array.append(int(input('Element: ')))
 
 def revert(array, k):
     array1 = array.copy()
