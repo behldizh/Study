@@ -24,13 +24,17 @@ array = [1, 3, 8, 3, 2, 1, 4, 2]
 n = len(array)
 match = 'Есть совпадение '
 
-for i in range(n-1):
-    print("Проверяем " + str(array[i]))
-    for j in range(i+1, n):
-        if array[i] == array[j]:
-            print(match + str(array[i]))
-            break
-        elif array.count(array[i]) == 1:
-            uniq_element = "Элемент " + str(array[i]) + " уникален"
-            print(uniq_element)
-            break
+
+def doublet_match(array, n, match):
+    for i in range(n-1):
+        print("Проверяем " + str(array[i]))
+        for j in range(i+1, n):
+            if array[i] == array[j]:
+                print(match + str(array[i]))
+                break
+            elif array.count(array[i]) == 1:
+                uniq_element = "Элемент " + str(array[i]) + " уникален"
+                print(uniq_element)
+                break
+
+doublet_match(array, n, match)
