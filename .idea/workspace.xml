@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f94ea81-5920-472a-8f89-b3835f67fcf4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doublet_match.py" afterPath="$PROJECT_DIR$/doublet_match.py" />
     </list>
     <ignored path="StudyLabOne.iws" />
@@ -32,11 +33,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="doublet_match.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="doublet_match.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doublet_match.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+            <state relative-caret-position="280">
+              <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="additional_dm.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/additional_dm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -68,11 +79,12 @@
         <option value="$PROJECT_DIR$/array_revert.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/doublet_match.py" />
+        <option value="$PROJECT_DIR$/additional_dm.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="708" />
+    <option name="width" value="890" />
     <option name="height" value="800" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -145,7 +157,7 @@
       <recent name="$PROJECT_DIR$/study" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.doublet_match">
+  <component name="RunManager" selected="Python.additional_dm">
     <configuration default="false" name="array_revert" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,23 +171,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="StudyLabOne" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array_revert.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="lab_one_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="StudyLabOne" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study/lab_one_v2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -227,6 +222,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="StudyLabOne" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="additional_dm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="StudyLabOne" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/additional_dm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -380,18 +392,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.array_revert" />
-      <item index="1" class="java.lang.String" itemvalue="Python.lab_one_v2" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Lab_one_part_one" />
-      <item index="3" class="java.lang.String" itemvalue="Python.doublet_match" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Lab_one_part_one" />
+      <item index="2" class="java.lang.String" itemvalue="Python.doublet_match" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.additional_dm" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.doublet_match" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.array_revert" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Lab_one_part_one" />
-        <item index="4" class="java.lang.String" itemvalue="Python.lab_one_v2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.additional_dm" />
+        <item index="1" class="java.lang.String" itemvalue="Python.doublet_match" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.array_revert" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Lab_one_part_one" />
       </list>
     </recent_temporary>
   </component>
@@ -402,7 +414,7 @@
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="708" height="800" extended-state="6" />
+    <frame x="0" y="0" width="890" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28980526" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -545,8 +557,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/doublet_match.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+        <state relative-caret-position="280">
+          <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/additional_dm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
           <folding />
         </state>
       </provider>
