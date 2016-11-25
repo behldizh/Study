@@ -10,7 +10,6 @@ def walk_function(max_size, max_file_size, path):
         size = os.path.getsize(d)
         if size > max_size:
             max_size = size
-            print("На данной итерации, максимальный размер у директории: " + d)
         for f in files:
             path = os.path.join(d, f)
             size_of_file = os.path.getsize(path)
