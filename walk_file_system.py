@@ -18,9 +18,12 @@ for d, dirs, files in os.walk('./my_files'):
         size_of_file = os.path.getsize(path)
         if max_file_size < size_of_file:
             result = "Файл " + f + " в директории " + d + " имеет максимальный размер, равный: " + str(size_of_file)
-
 print(result)
 
+
+
+
+"""
 path_f = []
 
 for d, dirs, files in os.walk('./my_files'):
@@ -32,17 +35,4 @@ for d, dirs, files in os.walk('./my_files'):
         print("Размер файла " + str(f) + " равен: " + str(os.path.getsize(path)))
         # добавление адреса в список
         path_f.append(path)
-
-"""
-def walk(dir):
-    for name in os.listdir(dir):
-        path = os.path.join(dir, name)
-        if os.path.isfile(path):
-            print(path)
-        elif os.path.isdir(path):
-            print(path)
-        else:
-            walk(path)
-
-walk(path)
 """
