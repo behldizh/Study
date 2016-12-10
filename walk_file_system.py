@@ -1,23 +1,32 @@
+"""
+Найти максимальный размер директории или файла на каждом уровне
+
+"""
+
+
 import os
 
-path = './my_files/'
-max_size = 0
-max_file_size = 0
+directory = './blog/'
+path = './blog/'
 
 
-def walk_function(max_size, max_file_size, path):
-    for d, dirs, files in os.walk('./my_files'):
+def walk_function(directory):
+
+    max_size = 0
+    max_file_size = 0
+
+    for d, dirs, files in os.walk(directory):
         size = os.path.getsize(d)
         if size > max_size:
             max_size = size
         for f in files:
-            path = os.path.join(d, f)
-            size_of_file = os.path.getsize(path)
+            next_path = os.path.join(d, f)
+            size_of_file = os.path.getsize(next_path)
             if max_file_size < size_of_file:
                 result = "Файл " + f + " в директории " + d + " имеет максимальный размер, равный: " + str(size_of_file) + " байт"
     print(result)
 
-walk_function(max_file_size, max_file_size, path)
+walk_function(path)
 
 
 
